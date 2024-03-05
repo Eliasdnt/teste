@@ -1,0 +1,81 @@
+/* Formação */
+.formacao {
+  margin-top: 40px;
+  /* margin-bottom: 60px; */
+  background-color: #141414;
+  width: 100%;
+}
+.formacao strong {
+  color: #fff;
+}
+
+.subtitle-form {
+  color: #000;
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 6ch;
+}
+
+.form-cont {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #525252;
+}
+
+.gridinterno-form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 45px;
+  color: #525252;
+}
+.gridinterno-form ul {
+  display: flex;
+  gap: 60px;
+}
+
+.item-il-interno {
+  padding: 20px;
+  background-color: #000;
+  position: relative;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.item-il-interno h3 {
+  margin: 5px;
+}
+
+.item-il-interno h3::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#afafaf, aqua);
+  position: absolute;
+  left: 0;
+}
+
+.cursos {
+  margin-top: 40px;
+  font-size: 1rem;
+  line-height: 1.33;
+  text-align: center;
+  width: 600px;
+}
+
+.cursos ul {
+  display: flex;
+  width: 100%;
+  margin-top: 15px;
+  justify-content: space-between;
+  font-size: medium;
+}
+.cursos ul li{
+  margin: 0px;
+}

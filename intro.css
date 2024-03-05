@@ -1,0 +1,43 @@
+.img-principal{
+  width: 100%;
+  margin:0%;
+  
+}
+
+.intro{
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin:0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap:100px;
+  align-items: center;
+  
+  
+}
+.intro h2{
+  font-size: 4.5rem;
+  line-height: 1.125;
+  
+}
+
+.intro p{
+  font-size: 1.75rem;
+  margin-top: 10px;
+  color: #525252;
+  
+  
+}
+
+.intro h2::before{
+  content: '';
+  display: block;
+  width: 150px;
+  height: 20px;
+  background: linear-gradient(#afafaf, aqua);
+  rotate: -40.5deg;
+  position: relative;
+  z-index: -1;
+  right: 40px;
+  top: 50px;
+}

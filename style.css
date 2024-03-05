@@ -1,0 +1,200 @@
+@import "header.css";
+@import "intro.css";
+@import "experincia.css";
+@import "formacao.css";
+@import "rodape.css";
+
+/* reset */
+* {
+  font-size: 100%;
+  font-family: "Fira-Sans", arial, sans-serif;
+  /* max-width: 1200px; */
+  padding: 0;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+}
+
+@media (max-width: 1130px) {
+  .subtitle,
+  .subtitle-form {
+    display: none;
+  }
+  .experiencia,
+  .form-cont {
+    grid-template-columns: 1fr;
+    /* margin:40px */
+  }
+}
+
+@media (max-width: 850px) {
+  .img-principal {
+    display: none;
+  }
+  .intro {
+    grid-template-columns: 1fr;
+  }
+  .footer-cont {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .copyrigth {
+    margin-top: 40px;
+  }
+
+  .formacao {
+    width: 100%;
+  }
+
+  .form-cont {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .contanier img {
+    margin: 80px;
+  }
+}
+
+@media (max-width: 800px) {
+  .gridinterno {
+    grid-template-columns: 1fr;
+    width: 350px;
+    height: 200px;
+    gap: 10px;
+    justify-items: center;
+  }
+  .item-ul-interno {
+    margin: 0;
+    padding: 5px 10px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 680px) {
+  .cursos {
+    margin: 0;
+    justify-content: center;
+  }
+  .cursos ul {
+    max-width: 350px;
+  }
+  .gridinterno-form {
+    margin: 0;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .gridinterno-form ul {
+    margin: 0;
+  }
+}
+
+@media (max-width: 615px) {
+  #textointerno {
+    font-size: 1rem;
+    max-width: 450px;
+  }
+  .cursos ul {
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .gridinterno-form {
+    max-width: 450px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+
+  .footer-cont p {
+    font-size: 1rem;
+  }
+  .footer-cont span strong {
+    font-size: 1.25rem;
+  }
+
+  nav .contanier {
+    max-width: 450px;
+  }
+  nav .contanier .ul-nav {
+    max-width: 450px;
+  }
+
+  .intro h2 {
+    font-size: 3rem;
+  }
+  .form-cont div {
+    width: 100%;
+  }
+}
+@media (max-width: 515px) {
+  .item-il-interno {
+    max-width: 250px;
+
+    margin: 0 auto;
+    width: 60px;
+    font-size: 0.69rem;
+  }
+
+  .cursos ul {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 460px) {
+
+
+.contanier {
+ justify-content: space-between;
+  align-items: center;
+}
+
+.ul-nav a{
+  font-size: 0.75rem;
+}
+
+
+  .intro h2 {
+    font-size: 2rem;
+  }
+  .intro p{
+    font-size: 1rem;
+  }
+
+  #textointerno {
+    max-width: 250px;
+    font-size:1rem;
+  }
+
+  .gridinterno{
+    width: 200px;
+    padding-bottom: 50px;
+    /* height: 60px; */
+  }
+  .gridinterno-form ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:30px;
+    justify-content: center;
+    margin-bottom: 40px;
+
+  }
+
+  .gridinterno-form ul span{
+    font-size: 1rem;
+  }
+  .gridinterno-form ul strong{
+    font-size: 1rem;
+  }
+  .item-il-interno{
+    padding: 50px;
+  }
+  .footer-cont{
+    max-width: 300px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
